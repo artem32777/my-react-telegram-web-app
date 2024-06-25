@@ -1,0 +1,18 @@
+.site-button {
+    font-weight: 600;
+    display: block;
+    padding: 10px 10px 12px 10px;
+    border-radius: 6px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 14px;
+    max-width: 130px;
+    width: 100%;
+    color: #ffffff;
+    margin: 0 auto;
+    @media (any-hover: hover){
+       &:hover{
+          background-color: #ffffff;
+       }
+    }
+}
