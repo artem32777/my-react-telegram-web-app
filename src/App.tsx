@@ -53,6 +53,11 @@ function App() {
             >
               Visit Site
             </a>
+            <a className="site-button"
+               onClick={() => WebApp.showAlert('Coming Soon...')}
+            >
+              Connect Wallet
+            </a>
           </div>
         </main>
         <Footer/>
