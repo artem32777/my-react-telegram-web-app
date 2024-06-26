@@ -91,12 +91,12 @@ main {
     flex-direction: column;
     :nth-child(1) {
         opacity: 0;
-        animation: start 1.2s ease-in-out 2.5s forwards;
+        animation: start 1.2s ease-in-out 2.8s forwards;
 
     }
     :nth-child(2) {
         opacity: 0;
-        animation: start 1.2s ease-in-out 3.2s forwards;
+        animation: start 1.2s ease-in-out 3.5s forwards;
     }
 
 }
@@ -108,16 +108,16 @@ main {
     flex-direction: column;
     :nth-child(1) {
         opacity: 0;
-        animation: start-reverse 0.7s ease-in-out 0.7s forwards;
+        animation: start-reverse 0.7s ease-in-out 1s forwards;
     }
 
     :nth-child(2) {
         opacity: 0;
-        animation: start-reverse 0.7s ease-in-out 1.4s forwards;
+        animation: start-reverse 0.7s ease-in-out 1.7s forwards;
     }
     :nth-child(3) {
         opacity: 0;
-        animation: start-reverse 0.7s ease-in-out 2.1s forwards;
+        animation: start-reverse 0.7s ease-in-out 2.4s forwards;
     }
 }
 
