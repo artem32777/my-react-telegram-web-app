@@ -3,29 +3,28 @@ import Logo from "./components/Logo/Logo.tsx";
 import Footer from "./components/Footer/Footer.tsx";
 import WebApp from "@twa-dev/sdk";
 
-console.log(WebApp)
 
-const appState = {
-  previousPage: ''
-};
-
-// Function to setup the back button behavior
-function setupBackButton() {
-
-  WebApp.BackButton.show()
-  WebApp.BackButton.onClick(() => {
-    if (appState.previousPage) {
-      window.location.href = appState.previousPage;
-    } else {
-      window.history.back();
-    }
-  });
-
-  appState.previousPage = document.referrer || ''; // Store the referrer or any specific previous page URL
-}
-
-// Call the setup function to initialize the back button behavior
-setupBackButton();
+// const appState = {
+//   previousPage: ''
+// };
+//
+// // Function to setup the back button behavior
+// function setupBackButton() {
+//
+//   WebApp.BackButton.show()
+//   WebApp.BackButton.onClick(() => {
+//     if (appState.previousPage) {
+//       window.location.href = appState.previousPage;
+//     } else {
+//       window.history.back();
+//     }
+//   });
+//
+//   appState.previousPage = document.referrer || ''; // Store the referrer or any specific previous page URL
+// }
+//
+// // Call the setup function to initialize the back button behavior
+// setupBackButton();
 
 
 function App() {
@@ -54,8 +53,6 @@ function App() {
             >
               Visit Site
             </a>
-          </div>
-          <div className="card">
           </div>
         </main>
         <Footer/>

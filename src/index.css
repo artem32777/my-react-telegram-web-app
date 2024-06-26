@@ -84,8 +84,8 @@ main {
     opacity: 0;
     justify-content: center;
     flex-direction: column;
-    animation: start 1.5s ease-in-out 2s forwards;
-    -webkit-animation: start 1.5s ease-in-out 2s forwards;
+    animation: start 1.5s ease-in-out 1.5s forwards;
+    -webkit-animation: start 1.5s ease-in-out 1.5s forwards;
 }
 
 .buttons {
@@ -100,7 +100,7 @@ main {
 
     :nth-child(2) {
         opacity: 0;
-        animation: start-reverse 1.2s ease-in-out 3.5s forwards;
+        animation: start-reverse 1.2s ease-in-out 4s forwards;
     }
 }
 
@@ -131,7 +131,7 @@ a, button {
 
 @-webkit-keyframes start {
     0% {
-        transform: translate(0px, 30px);
+        transform: translate(0px, 20px);
         opacity: 0;
     }
 
