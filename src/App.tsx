@@ -5,6 +5,10 @@ import Logo from "./components/Logo/Logo.tsx";
 import GoogleButton from "./components/GoogleButton/GoogleButton.tsx";
 import SiteButton from "./components/SiteButton/SiteButton.tsx";
 import Footer from "./components/Footer/Footer.tsx";
+import WebApp from "@twa-dev/sdk";
+
+console.log(WebApp)
+
 
 function App() {
 
