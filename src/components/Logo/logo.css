@@ -211,6 +211,6 @@ svg {
     animation: animate-svg-fill-7 1.5s cubic-bezier(0.895, 0.03, 0.685, 0.22) 0.8s both;
 }
 .svg-elem-8 {
-    -webkit-animation: animate-svg-fill-8 2.5s cubic-bezier(0.895, 0.03, 0.685, 0.22) 0.9s both;
-    animation: animate-svg-fill-8 2.5s cubic-bezier(0.895, 0.03, 0.685, 0.22) 0.9s both;
+    -webkit-animation: animate-svg-fill-8 1.5s cubic-bezier(0.895, 0.03, 0.685, 0.22) 0.9s both;
+    animation: animate-svg-fill-8 1.5s cubic-bezier(0.895, 0.03, 0.685, 0.22) 0.9s both;
 }

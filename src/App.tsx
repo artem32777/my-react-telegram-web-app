@@ -27,6 +27,7 @@ function App() {
           <div className="buttons">
             <GoogleButton/>
             <SiteButton/>
+            <SiteButton/>
           </div>
           <div className="card">
           </div>

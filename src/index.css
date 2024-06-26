@@ -31,7 +31,7 @@ body {
 }
 
 h1 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.1;
 }
 
@@ -40,7 +40,7 @@ h1 {
     display: flex;
     width: 100%;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: calc(100vh - 5px);
     gap: 0.5rem;
     color: #ffffff;
 }
@@ -68,13 +68,14 @@ main {
     padding: 10px 10px 0;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1.2rem;
     animation: start 1.5s ease-in-out 3s forwards;
     -webkit-animation: start 1.5s ease-in-out 3s forwards;
 }
 
 .description {
     font-weight: 600;
+    font-size: 0.8rem;
 }
 
 @-webkit-keyframes start {
@@ -92,7 +93,7 @@ main {
 
 .buttons {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     justify-content: center;
     flex-direction: column;
 }
