@@ -23,9 +23,6 @@ function App() {
             Google Search Console hides many valuable insights about your website. Buddler helps to find the most
             important of them — those which could bring maximum results with minimum effort
           </p>
-          <p className="description">
-            Login to start app or visit site
-          </p>
           <div className="buttons">
             <GoogleButton/>
             <SiteButton/>
