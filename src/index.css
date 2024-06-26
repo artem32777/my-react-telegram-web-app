@@ -31,8 +31,11 @@ body {
 }
 
 h1 {
-    font-size: 1.2rem;
     line-height: 1.1;
+    font-size: 8vw;
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 #root {
@@ -43,6 +46,8 @@ h1 {
     gap: 0.5rem;
     min-height: 100vh;
     color: #ffffff;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 @media (prefers-color-scheme: light) {
@@ -73,7 +78,8 @@ main {
 
 .description {
     font-weight: 600;
-    font-size: 0.8rem;
+    /*font-size: 0.8rem;*/
+    font-size: 4vw;
     line-height: 1.5;
     color: #ffffff;
 }
@@ -102,16 +108,16 @@ main {
     flex-direction: column;
     :nth-child(1) {
         opacity: 0;
-        animation: start-reverse 1.2s ease-in-out 2.5s forwards;
+        animation: start-reverse 1.2s ease-in-out 2s forwards;
     }
 
     :nth-child(2) {
         opacity: 0;
-        animation: start-reverse 1.2s ease-in-out 3s forwards;
+        animation: start-reverse 1.2s ease-in-out 2.5s forwards;
     }
     :nth-child(3) {
         opacity: 0;
-        animation: start-reverse 1.2s ease-in-out 3.5s forwards;
+        animation: start-reverse 1.2s ease-in-out 3s forwards;
     }
 }
 
@@ -131,7 +137,7 @@ a, button {
     width: 100%;
     color: #ffffff;
     margin: 0 auto;
-    transition: all 0.3s ease 0s;
+    transition: background-color 0.3s ease 0s;
     @media (any-hover: hover) {
         &:hover {
             background-color: #ffffff;
@@ -154,7 +160,7 @@ a, button {
 
 @-webkit-keyframes start-reverse {
     0% {
-        transform: translate(30px,0px);
+        transform: translate(60px,0px);
         opacity: 0;
     }
 
