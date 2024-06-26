@@ -10,6 +10,7 @@ import WebApp from "@twa-dev/sdk";
 console.log(WebApp)
 
 
+
 function App() {
 
   return (

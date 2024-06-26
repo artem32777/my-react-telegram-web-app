@@ -5,7 +5,6 @@ import './index.css'
 import WebApp from '@twa-dev/sdk'
 
 WebApp.ready();
-WebApp.expand()
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -13,3 +12,5 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
   </React.StrictMode>,
 )
 
+WebApp.expand();
+WebApp.enableClosingConfirmation();

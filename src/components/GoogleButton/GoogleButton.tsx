@@ -5,7 +5,7 @@ function GoogleButton() {
 
   return (
       <>
-        <a href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?client_id=438685150138-rf6dv3gcvnn7tvamtt1ds3dndlupf58u.apps.googleusercontent.com&amp;redirect_uri=https%3A%2F%2Fapp.buddler.com%2Fauth%2Fgoogle%2Fcallback&amp;scope=openid%20profile%20email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fwebmasters.readonly&amp;response_type=code&amp;access_type=offline&amp;prompt=consent%20select_account&amp;service=lso&amp;o2v=1&amp;theme=glif&amp;flowName=GeneralOAuthFlow"
+        <a href="https://app.buddler.com/sign-in"
            className="gsi-material-button">
           <div className="gsi-material-button-state"></div>
           <div className="gsi-material-button-content-wrapper">
