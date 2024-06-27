@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "bot": "nodemon src/botapi.ts",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
@@ -13,11 +14,13 @@
     "@twa-dev/sdk": "^7.0.0",
     "@twa-dev/types": "^7.0.0",
     "@vitejs/plugin-basic-ssl": "^1.1.0",
+    "node-telegram-bot-api": "^0.66.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@types/node": "^20.14.9",
+    "@types/node-telegram-bot-api": "^0.64.7",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^7.13.1",
@@ -26,6 +29,7 @@
     "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
+    "nodemon": "^3.1.4",
     "sass": "^1.77.6",
     "typescript": "^5.2.2",
     "vite": "^5.3.1"

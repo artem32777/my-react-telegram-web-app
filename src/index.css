@@ -108,16 +108,16 @@ main {
     flex-direction: column;
     :nth-child(1) {
         opacity: 0;
-        animation: start-reverse 1.5s ease-in-out 1.4s forwards;
+        animation: start-reverse 0.7s ease-in-out 1.4s forwards;
     }
 
     :nth-child(2) {
         opacity: 0;
-        animation: start-reverse 0.7s ease-in-out 4.5s forwards;
+        animation: start-reverse 0.7s ease-in-out 4s forwards;
     }
     :nth-child(3) {
         opacity: 0;
-        animation: start-reverse 0.7s ease-in-out 5.2s forwards;
+        animation: start-reverse 0.7s ease-in-out 4.7s forwards;
     }
 }
 
