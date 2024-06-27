@@ -113,11 +113,11 @@ main {
 
     :nth-child(2) {
         opacity: 0;
-        animation: start-reverse 0.7s ease-in-out 3s forwards;
+        animation: start-reverse 0.7s ease-in-out 4s forwards;
     }
     :nth-child(3) {
         opacity: 0;
-        animation: start-reverse 0.7s ease-in-out 3.7s forwards;
+        animation: start-reverse 0.7s ease-in-out 4.7s forwards;
     }
 }
 
