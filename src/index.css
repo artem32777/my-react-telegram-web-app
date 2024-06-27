@@ -91,12 +91,12 @@ main {
     flex-direction: column;
     :nth-child(1) {
         opacity: 0;
-        animation: start 2s ease 2s forwards;
+        animation: start 2s ease 2.6s forwards;
 
     }
     :nth-child(2) {
         opacity: 0;
-        animation: start 1.5s ease 2.8s forwards;
+        animation: start 1.5s ease 3.3s forwards;
     }
 
 }
@@ -108,7 +108,7 @@ main {
     flex-direction: column;
     :nth-child(1) {
         opacity: 0;
-        animation: start-reverse 1.5s ease-in-out 1.2s forwards;
+        animation: start-reverse 1.5s ease-in-out 1.4s forwards;
     }
 
     :nth-child(2) {
